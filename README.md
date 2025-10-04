@@ -12,7 +12,7 @@ This project fine-tunes the Llama 3.1 1B model using LoRA (Low-Rank Adaptation) 
 - **Dataset**: [har1/MTS_Dialogue-Clinical_Note](https://huggingface.co/datasets/har1/MTS_Dialogue-Clinical_Note)
 - **Training Method**: LoRA (Low-Rank Adaptation) with 4-bit quantization
 - **Framework**: Transformers + PEFT + TRL
-- **Training Time**: ~42 minutes on A100 GPU
+- **Training Time**: ~42 minutes on T4 GPU
 - **Trainable Parameters**: 3.9M (0.23% of total)
 
 ## Features
