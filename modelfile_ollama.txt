@@ -1,0 +1,21 @@
+FROM ./models/medical-soap-q4.gguf
+
+TEMPLATE """<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+You are a medical assistant. Given a medical dialogue between a patient and healthcare provider, generate a SOAP (Subjective, Objective, Assessment, Plan) summary.
+
+<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+{{ .Prompt }}
+
+<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+"""
+
+PARAMETER stop "<|eot_id|>"
+PARAMETER stop "<|end_of_text|>"
+PARAMETER temperature 0.7
+PARAMETER top_p 0.9
+PARAMETER top_k 40
+PARAMETER num_ctx 2048
+PARAMETER repeat_penalty 1.1

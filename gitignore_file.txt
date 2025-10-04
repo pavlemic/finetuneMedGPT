@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Model files (too large for git)
+*.bin
+*.safetensors
+*.gguf
+*.pth
+*.pt
+*.ckpt
+llama1b-medical-soap-lora/
+llama1b-medical-soap-merged/
+models/
+*.tar.gz
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Training outputs
+outputs/
+runs/
+checkpoints/
+
+# Hugging Face cache
+.cache/
