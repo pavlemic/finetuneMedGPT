@@ -210,7 +210,7 @@ If you use this model in your research, please cite:
   author = {Pavle Micic},
   title = {Medical SOAP Note Generator - Fine-tuned Llama 3.1 1B},
   year = {2025},
-  url = {https://github.com/yourusername/medical-soap-generator}
+  url = {https://github.com/pavlemic/finetuneMedGPT}
 }
 ```
 
